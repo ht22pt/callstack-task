@@ -5,7 +5,7 @@ import TableView from '../../components/TableView';
 import SubmitForm from '../SubmitForm';
 import style from './style';
 
-export default class PokeTable extends React.Component {
+export default class PostsTable extends React.Component {
   constructor(...args) {
     super(...args);
     this.state = this.defaultState();

@@ -4,7 +4,7 @@ import { LocaleProvider } from 'antd';
 import { Lokka } from 'lokka';
 import { Transport } from 'lokka-transport-http';
 import enUS from 'antd/lib/locale-provider/en_US';
-import PokeTable from './containers/PokeTable';
+import PostsTable from './containers/PostsTable';
 import 'antd/dist/antd.css';
 
 const api = new Lokka({
@@ -13,7 +13,7 @@ const api = new Lokka({
 
 const app = (
   <LocaleProvider locale={enUS}>
-    <PokeTable api={api} />
+    <PostsTable api={api} />
   </LocaleProvider>
 );
 
