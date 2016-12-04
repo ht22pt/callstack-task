@@ -3,6 +3,10 @@ module.exports = class Database {
     this.data = data;
   }
 
+  insert(item) {
+    this.data.push(item);
+  }
+
   count(query) {
     let data = this.data.slice();
     if (query.filters) {
