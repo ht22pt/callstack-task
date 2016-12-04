@@ -7,7 +7,7 @@ export default function TableBodyCell(props) {
   if (props.type === 'number') {
     value = sugar.Number.format(props.value);
   } else if (props.type === 'date') {
-    value = sugar.Date.relative(new Date(props.value));
+    value = new Date(props.value).toLocaleDateString();
   }
 
   let tdstyle = Object.assign(
