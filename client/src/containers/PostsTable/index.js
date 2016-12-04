@@ -29,7 +29,7 @@ export default class PostsTable extends React.Component {
   defaultHeaders() {
     return [
       { id: 'id', title: 'Id', type: 'text' },
-      { id: 'name', title: 'User Name', type: 'text' },
+      { id: 'name', title: 'User Name', type: 'text', highlight: 'awqrre' },
       { id: 'title', title: 'Post Title', type: 'text' },
       { id: 'views', title: 'Views', type: 'number' },
       { id: 'likes', title: 'Likes', type: 'number' },
