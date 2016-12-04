@@ -4,11 +4,11 @@
   "description": "A table component with React",
   "main": "index.js",
   "devDependencies": {
+    "@kadira/react-storybook-decorator-centered": "^1.0.0",
     "@kadira/storybook": "^2.21.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
-    "@kadira/react-storybook-decorator-centered": "^1.0.0",
     "antd": "^2.5.0",
     "graphqlify": "^1.1.0",
     "lokka": "^1.7.0",
