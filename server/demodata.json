@@ -1,0 +1,714 @@
+[
+  {
+    "title": "Decoding the Thought Vector (gabgoh.github.io)",
+    "likes": 120,
+    "name": "kebinappies",
+    "created": 1480492737000,
+    "views": 240,
+    "id": 1
+  },
+  {
+    "title": "Tiny-dnn, dependency-free deep learning framework in C++11 (github.com)",
+    "likes": 39,
+    "name": "chang2301",
+    "created": 1480496337000,
+    "views": 156,
+    "id": 2
+  },
+  {
+    "title": "Top OpenBSD Donors (openbsdfoundation.org)",
+    "likes": 70,
+    "name": "ttflee",
+    "created": 1480499937000,
+    "views": 1400,
+    "id": 3
+  },
+  {
+    "title": "How to Master an Accent (nytimes.com)",
+    "likes": 122,
+    "name": "Thevet",
+    "created": 1480478337000,
+    "views": 4758,
+    "id": 4
+  },
+  {
+    "title": "Why can’t humans regenerate body parts? We’ve got the genes (newatlas.com)",
+    "likes": 200,
+    "name": "awqrre",
+    "created": 1480471137000,
+    "views": 24200,
+    "id": 5
+  },
+  {
+    "title": "Oh right, about those LEDs (xiphmont.livejournal.com)",
+    "likes": 15,
+    "name": "BuuQu9hu",
+    "created": 1480496337000,
+    "views": 15,
+    "id": 6
+  },
+  {
+    "title": "The Case Against Dark Matter (quantamagazine.org)",
+    "likes": 69,
+    "name": "bilifuduo",
+    "created": 1480485537000,
+    "views": 759,
+    "id": 7
+  },
+  {
+    "title": "Announcing AWS Organizations: Centrally Manage Multiple AWS Accounts (amazon.com)",
+    "likes": 197,
+    "name": "mwarkentin",
+    "created": 1480471137000,
+    "views": 6895,
+    "id": 8
+  },
+  {
+    "title": "Ariadna – opensource geocoder for OSM data (github.com)",
+    "likes": 17,
+    "name": "Gen1us2k",
+    "created": 1480496337000,
+    "views": 102,
+    "id": 9
+  },
+  {
+    "title": "Show HN: Anycomplete (github.com)",
+    "likes": 351,
+    "name": "nathancahill",
+    "created": 1480449537000,
+    "views": 27027,
+    "id": 10
+  },
+  {
+    "title": "Research into psychedelics, shut down for decades, is yielding results (2015) (newyorker.com)",
+    "likes": 122,
+    "name": "arikr",
+    "created": 1480485537000,
+    "views": 4514,
+    "id": 11
+  },
+  {
+    "title": "Javascript exploit actively used against TorBrowser (torproject.org)",
+    "likes": 247,
+    "name": "secfirstmd",
+    "created": 1480460337000,
+    "views": 23959,
+    "id": 12
+  },
+  {
+    "title": "Help Us Keep the Archive Free, Accessible, and Private (archive.org)",
+    "likes": 326,
+    "name": "aaronbrethorst",
+    "created": 1480449537000,
+    "views": 18256,
+    "id": 13
+  },
+  {
+    "title": "LambdaConf Ladder of Functional Programming [pdf] (lambdaconf.us)",
+    "likes": 120,
+    "name": "panic",
+    "created": 1480471137000,
+    "views": 5280,
+    "id": 14
+  },
+  {
+    "title": "HiFive1: A RISC-V-based, Open-Source, Arduino-Compatible Development Kit (sifive.com)",
+    "likes": 166,
+    "name": "mwcampbell",
+    "created": 1480460337000,
+    "views": 10458,
+    "id": 15
+  },
+  {
+    "title": "War Is a Racket by General Smedley D. Butler (1933) (wanttoknow.info)",
+    "likes": 160,
+    "name": "betolink",
+    "created": 1480485537000,
+    "views": 11840,
+    "id": 16
+  },
+  {
+    "title": "Logojoy: How an AI-powered logo creator makes $15k/mo (indiehackers.com)",
+    "likes": 1005,
+    "name": "csallen",
+    "created": 1480445937000,
+    "views": 287430,
+    "id": 17
+  },
+  {
+    "title": "UK's new Snoopers Charter just passed an encryption backdoor law by the backdoor (theregister.co.uk)",
+    "likes": 33,
+    "name": "tomtoise",
+    "created": 1480499937000,
+    "views": 330,
+    "id": 18
+  },
+  {
+    "title": "On Funding Hapi.js Core Development (sideway.com)",
+    "likes": 111,
+    "name": "bricss",
+    "created": 1480471137000,
+    "views": 3330,
+    "id": 19
+  },
+  {
+    "title": "Jolla’s Sailfish certified as Russian government’s first ‘Android alternative’ (techcrunch.com)",
+    "likes": 136,
+    "name": "eth0up",
+    "created": 1480460337000,
+    "views": 9656,
+    "id": 20
+  },
+  {
+    "title": "An Exact Mapping Between the Variational Renormalization Group and Deep Learning (arxiv.org)",
+    "likes": 65,
+    "name": "dkarapetyan",
+    "created": 1480474737000,
+    "views": 650,
+    "id": 21
+  },
+  {
+    "title": "Belgium and the Netherlands Swap Land, and Remain Friends (nytimes.com)",
+    "likes": 173,
+    "name": "ALee",
+    "created": 1480449537000,
+    "views": 14532,
+    "id": 22
+  },
+  {
+    "title": "Princeton University Math Major Course Guide (princeton.edu)",
+    "likes": 98,
+    "name": "kercker",
+    "created": 1480478337000,
+    "views": 3430,
+    "id": 23
+  },
+  {
+    "title": "How and why did humans domesticate animals? (aeon.co)",
+    "likes": 81,
+    "name": "diodorus",
+    "created": 1480463937000,
+    "views": 729,
+    "id": 24
+  },
+  {
+    "title": "When A.I. Matures, It May Call Jürgen Schmidhuber ‘Dad’ (nytimes.com)",
+    "likes": 98,
+    "name": "bcaulfield",
+    "created": 1480460337000,
+    "views": 3234,
+    "id": 25
+  },
+  {
+    "title": "Farm Hack: worldwide community of farmers that build and modify our own tools (farmhack.org)",
+    "likes": 554,
+    "name": "Osiris30",
+    "created": 1480435137000,
+    "views": 49860,
+    "id": 26
+  },
+  {
+    "title": "Git 2.11 has been released (github.com)",
+    "likes": 251,
+    "name": "stablemap",
+    "created": 1480456737000,
+    "views": 13554,
+    "id": 27
+  },
+  {
+    "title": "Predictive Analytics 101. The Basics Explained for Non-Developers (part1) (data36.com)",
+    "likes": 80,
+    "name": "data36",
+    "created": 1480467537000,
+    "views": 320,
+    "id": 28
+  },
+  {
+    "title": "Show HN: js.spec, a JavaScript implementation of clojure.spec (github.com)",
+    "likes": 80,
+    "name": "prayerslayer",
+    "created": 1480463937000,
+    "views": 1680,
+    "id": 29
+  },
+  {
+    "title": "React Native Touchbar (github.com)",
+    "likes": 149,
+    "name": "yashafromrussia",
+    "created": 1480449537000,
+    "views": 4470,
+    "id": 30
+  },
+  {
+    "title": "Grafana 4.0 with alerting is released (grafana.org)",
+    "likes": 281,
+    "name": "yobo",
+    "created": 1480449537000,
+    "views": 21356,
+    "id": 31
+  },
+  {
+    "title": "Kontena 1.0 Released: Developer Friendly Container and Microservices Platform (kontena.io)",
+    "likes": 89,
+    "name": "saanak",
+    "created": 1480456737000,
+    "views": 1068,
+    "id": 32
+  },
+  {
+    "title": "Not one, not two, but three undersea cables cut in Jersey (cloudflare.com)",
+    "likes": 7,
+    "name": "jgrahamc",
+    "created": 1480499937000,
+    "views": 28,
+    "id": 33
+  },
+  {
+    "title": "Breaking the Chain (googleprojectzero.blogspot.com)",
+    "likes": 92,
+    "name": "zerognowl",
+    "created": 1480456737000,
+    "views": 1380,
+    "id": 34
+  },
+  {
+    "title": "What’s the Second Job of a Startup CEO? (ycombinator.com)",
+    "likes": 315,
+    "name": "craigcannon",
+    "created": 1480438737000,
+    "views": 12285,
+    "id": 35
+  },
+  {
+    "title": "Cyclotron: A web application for constructing dashboards (cyclotron.io)",
+    "likes": 330,
+    "name": "severine",
+    "created": 1480431537000,
+    "views": 34980,
+    "id": 36
+  },
+  {
+    "title": "Always check your new server IP addresses (varaneckas.com)",
+    "likes": 22,
+    "name": "spajus",
+    "created": 1480492737000,
+    "views": 44,
+    "id": 37
+  },
+  {
+    "title": "First views of Mars show potential for ESA's new orbiter (esa.int)",
+    "likes": 40,
+    "name": "zhan_eg",
+    "created": 1480463937000,
+    "views": 40,
+    "id": 38
+  },
+  {
+    "title": "Writing C software without the standard library (ddns.net)",
+    "likes": 472,
+    "name": "andreaorru",
+    "created": 1480401000000,
+    "views": 81656,
+    "id": 39
+  },
+  {
+    "title": "Disseminating the New Kilogram: An International ‘Dry Run’ (nist.gov)",
+    "likes": 66,
+    "name": "amexrap",
+    "created": 1480435137000,
+    "views": 1452,
+    "id": 40
+  },
+  {
+    "title": "Will Japan’s Geisha Survive the Digital Age? – Disrupting Japan (disruptingjapan.com)",
+    "likes": 19,
+    "name": "jmadsen",
+    "created": 1480489137000,
+    "views": 38,
+    "id": 41
+  },
+  {
+    "title": "TensorFlow 0.12 adds support for Windows (googleblog.com)",
+    "likes": 149,
+    "name": "mrry",
+    "created": 1480442337000,
+    "views": 3874,
+    "id": 42
+  },
+  {
+    "title": "Understanding the Russian Revolution (smithsonianmag.com)",
+    "likes": 14,
+    "name": "samclemens",
+    "created": 1480467537000,
+    "views": 70,
+    "id": 43
+  },
+  {
+    "title": "The Theory of Interstellar Trade (1978) (fermatslibrary.com)",
+    "likes": 129,
+    "name": "garrincha",
+    "created": 1480442337000,
+    "views": 5934,
+    "id": 44
+  },
+  {
+    "title": "Lua as a Python’s secret weapon (alexeyvishnevsky.com)",
+    "likes": 45,
+    "name": "ceyhunkazel",
+    "created": 1480442337000,
+    "views": 675,
+    "id": 45
+  },
+  {
+    "title": "Fallout 1.5: Resurrection (resurrection.cz)",
+    "likes": 293,
+    "name": "kbart",
+    "created": 1480401000000,
+    "views": 41020,
+    "id": 46
+  },
+  {
+    "title": "Private Internet Access Launches $50,000 Match for Software Freedom Conservancy (sfconservancy.org)",
+    "likes": 11,
+    "name": "BuuQu9hu",
+    "created": 1480474737000,
+    "views": 44,
+    "id": 47
+  },
+  {
+    "title": "Slack client for Commodore 64 (1amstudios.com)",
+    "likes": 280,
+    "name": "oherrala",
+    "created": 1480424337000,
+    "views": 23520,
+    "id": 48
+  },
+  {
+    "title": "Don’t Sign That Non-Disclosure Agreement Yet (newco.co)",
+    "likes": 102,
+    "name": "ohjeez",
+    "created": 1480449537000,
+    "views": 3468,
+    "id": 49
+  },
+  {
+    "title": "Useful Perl one-liners (2013) (catonmat.net)",
+    "likes": 177,
+    "name": "kawera",
+    "created": 1480445937000,
+    "views": 14868,
+    "id": 50
+  },
+  {
+    "title": "Parabola: Now anyone can perform sophisticated data analysis with ease (parabola.io)",
+    "likes": 60,
+    "name": "macandcheese",
+    "created": 1480467537000,
+    "views": 600,
+    "id": 51
+  },
+  {
+    "title": "Internet of Things Temperature and Humidity Monitor (robertputt.co.uk)",
+    "likes": 60,
+    "name": "robputt796",
+    "created": 1480438737000,
+    "views": 2460,
+    "id": 52
+  },
+  {
+    "title": "Geologist uncovers 2.5B-year-old fossils of bacteria (phys.org)",
+    "likes": 107,
+    "name": "dnetesn",
+    "created": 1480449537000,
+    "views": 428,
+    "id": 53
+  },
+  {
+    "title": "The Fallacy of Chesterton’s Fence (2014) (abovethelaw.com)",
+    "likes": 43,
+    "name": "Tomte",
+    "created": 1480442337000,
+    "views": 817,
+    "id": 54
+  },
+  {
+    "title": "Are investors moonstruck? Lunar phases and stock returns (2006) (escholarship.org)",
+    "likes": 22,
+    "name": "Hooke",
+    "created": 1480449537000,
+    "views": 220,
+    "id": 55
+  },
+  {
+    "title": "Firmament: Fast, centralized cluster scheduling at scale (acolyer.org)",
+    "likes": 13,
+    "name": "irfansharif",
+    "created": 1480489137000,
+    "views": 52,
+    "id": 56
+  },
+  {
+    "title": "JavaScript Engines Hidden Classes (and Why You Should Keep Them in Mind) (vhf.github.io)",
+    "likes": 23,
+    "name": "LaSombra",
+    "created": 1480449537000,
+    "views": 92,
+    "id": 57
+  },
+  {
+    "title": "Front End Tooling Survey 2016 Results (ashleynolan.co.uk)",
+    "likes": 12,
+    "name": "5Zio",
+    "created": 1480496337000,
+    "views": 48,
+    "id": 58
+  },
+  {
+    "title": "SiFive open sources RISC-V chips (github.com)",
+    "likes": 79,
+    "name": "erichocean",
+    "created": 1480445937000,
+    "views": 1501,
+    "id": 59
+  },
+  {
+    "title": "We turned $140k on Kickstarter into $40k debt and broke even (medium.com)",
+    "likes": 745,
+    "name": "CaliforniaKarl",
+    "created": 1480401000000,
+    "views": 194445,
+    "id": 60
+  },
+  {
+    "title": "Connections between physics and deep learning [video] (youtube.com)",
+    "likes": 123,
+    "name": "espeed",
+    "created": 1480438737000,
+    "views": 369,
+    "id": 61
+  },
+  {
+    "title": "‘Diamond-age’ of power generation as nuclear batteries developed (bristol.ac.uk)",
+    "likes": 359,
+    "name": "triplesec",
+    "created": 1480401000000,
+    "views": 63543,
+    "id": 62
+  },
+  {
+    "title": "Variational Inference with Toy Examples (2013) [pdf] (zabaras.com)",
+    "likes": 22,
+    "name": "yamaneko",
+    "created": 1480438737000,
+    "views": 22,
+    "id": 63
+  },
+  {
+    "title": "ZeroTierOne: A Smart Ethernet Switch for Earth (github.com)",
+    "likes": 7,
+    "name": "BuuQu9hu",
+    "created": 1480471137000,
+    "views": 14,
+    "id": 64
+  },
+  {
+    "title": "TL;DR What's new in Git 2.11? (deveo.com)",
+    "likes": 4,
+    "name": "kontulai",
+    "created": 1480496337000,
+    "views": 16,
+    "id": 65
+  },
+  {
+    "title": "Windows on New Macbook Pro Permanently Damages Speaker Due to Poor Drivers (reddit.com)",
+    "likes": 210,
+    "name": "aq3cn",
+    "created": 1480435137000,
+    "views": 29820,
+    "id": 66
+  },
+  {
+    "title": "Real-time event aggregation at scale using Postgres with Citus (citusdata.com)",
+    "likes": 104,
+    "name": "samaysharma",
+    "created": 1480442337000,
+    "views": 1040,
+    "id": 67
+  },
+  {
+    "title": "Why I’m thankful for JavaScript fatigue (medium.com)",
+    "likes": 193,
+    "name": "callumlocke",
+    "created": 1480438737000,
+    "views": 22581,
+    "id": 68
+  },
+  {
+    "title": "Using CRISPR and stemcells to model autism, schizophrenia, other brain disorders (nih.gov)",
+    "likes": 10,
+    "name": "sciadvance",
+    "created": 1480456737000,
+    "views": 40,
+    "id": 69
+  },
+  {
+    "title": "CyberChef – A Cyber Swiss Army Knife (gchq.github.io)",
+    "likes": 767,
+    "name": "robin_reala",
+    "created": 1480401000000,
+    "views": 103545,
+    "id": 70
+  },
+  {
+    "title": "Ask HN: Would you launch a startup with .xyz TLD?",
+    "likes": 4,
+    "name": "Yabood",
+    "created": 1480492737000,
+    "views": 20,
+    "id": 71
+  },
+  {
+    "title": "How to grow into your best developer self (reaktor.com)",
+    "likes": 206,
+    "name": "siruelise",
+    "created": 1480401000000,
+    "views": 13802,
+    "id": 72
+  },
+  {
+    "title": "New front end UI framework from the author of Rollup (svelte.technology)",
+    "likes": 5,
+    "name": "dmnd",
+    "created": 1480481937000,
+    "views": 20,
+    "id": 73
+  },
+  {
+    "title": "Angry Bots Demo (webassembly.org)",
+    "likes": 164,
+    "name": "tilt",
+    "created": 1480401000000,
+    "views": 10168,
+    "id": 74
+  },
+  {
+    "title": "Jack Bogle Q&A: ‘We’re in the Middle of a Revolution’ (bloomberg.com)",
+    "likes": 5,
+    "name": "bryanwbh",
+    "created": 1480474737000,
+    "views": 20,
+    "id": 75
+  },
+  {
+    "title": "Why Are Developers Still Pouring Billions into Waterlogged Miami? (bloomberg.com)",
+    "likes": 116,
+    "name": "graaben",
+    "created": 1480442337000,
+    "views": 12064,
+    "id": 76
+  },
+  {
+    "title": "Learning D3: A course on building data visualizations with D3.js (learningd3.com)",
+    "likes": 36,
+    "name": "philipcdavis",
+    "created": 1480435137000,
+    "views": 108,
+    "id": 77
+  },
+  {
+    "title": "The Insecurity of OpenBSD (2010) (allthatiswrong.wordpress.com)",
+    "likes": 62,
+    "name": "rev",
+    "created": 1480442337000,
+    "views": 4774,
+    "id": 78
+  },
+  {
+    "title": "Inside tiny tubes, water turns solid when it should be boiling (mit.edu)",
+    "likes": 188,
+    "name": "dkarapetyan",
+    "created": 1480401000000,
+    "views": 9964,
+    "id": 79
+  },
+  {
+    "title": "The Magician of Manga (nybooks.com)",
+    "likes": 59,
+    "name": "lermontov",
+    "created": 1480435137000,
+    "views": 531,
+    "id": 80
+  },
+  {
+    "title": "Government responded to the petition against UK new surveillance laws (petition.parliament.uk)",
+    "likes": 17,
+    "name": "vvvv",
+    "created": 1480492737000,
+    "views": 17,
+    "id": 81
+  },
+  {
+    "title": "How Stable Are Democracies? ‘Warning Signs Are Flashing Red’ (nytimes.com)",
+    "likes": 35,
+    "name": "jostylr",
+    "created": 1480431537000,
+    "views": 1015,
+    "id": 82
+  },
+  {
+    "title": "Wikileaks – The HBGary Emails (wikileaks.org)",
+    "likes": 18,
+    "name": "bluesilver07",
+    "created": 1480474737000,
+    "views": 18,
+    "id": 83
+  },
+  {
+    "title": "Pwning coworkers thanks to LaTeX (scumjr.github.io)",
+    "likes": 200,
+    "name": "zdw",
+    "created": 1480401000000,
+    "views": 19600,
+    "id": 84
+  },
+  {
+    "title": "Show HN: Simple Minimal YouTube Alternative Player (no ads...with powers) (beta.echotu.be)",
+    "likes": 58,
+    "name": "orizens",
+    "created": 1480424337000,
+    "views": 2842,
+    "id": 85
+  },
+  {
+    "title": "Samsung Electronics, Pushed by Investors, Will Consider Restructuring (nytimes.com)",
+    "likes": 47,
+    "name": "JumpCrisscross",
+    "created": 1480401000000,
+    "views": 329,
+    "id": 86
+  },
+  {
+    "title": "Innovations: Technology, Governance and Globalization (mitpressjournals.org)",
+    "likes": 12,
+    "name": "Dowwie",
+    "created": 1480445937000,
+    "views": 24,
+    "id": 87
+  },
+  {
+    "title": "The Probability and Statistics Cookbook (statistics.zone)",
+    "likes": 222,
+    "name": "kercker",
+    "created": 1480401000000,
+    "views": 9102,
+    "id": 88
+  },
+  {
+    "title": "Chicago selling nearly 4,000 vacant lots to neighbors for $1 (largelots.org)",
+    "likes": 5,
+    "name": "fgregg",
+    "created": 1480474737000,
+    "views": 10,
+    "id": 89
+  }
+]
