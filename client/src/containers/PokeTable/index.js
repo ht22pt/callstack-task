@@ -15,14 +15,14 @@ export default class PokeTable extends React.Component {
 
   defaultState() {
     return {
-      page: 1,
+      currentPage: 1,
       pageSize: 10,
-      total: 0,
-      sort: 'id',
-      order: 'asc',
-      query: null,
-      rows: [],
-      isFormVisible: false,
+      totalPosts: 0,
+      sortField: 'id',
+      sortOrder: 'asc',
+      filterUser: '',
+      tableRows: [],
+      formVisible: false,
     };
   }
 
@@ -41,15 +41,15 @@ export default class PokeTable extends React.Component {
     const query = {
       postCount: {}
     };
-    if (this.state.query) {
+    if (this.state.filterUser) {
       query.postCount.params = query.postCount.params || {};
       query.postCount.params.filters = [
-        { field: "name", value: this.state.query },
+        { field: "name", value: this.state.filterUser },
       ];
     }
     // TODO improve error handling
     this.props.api.query(graphqlify(query))
-      .then(res => this.setState({ total: res.postCount }))
+      .then(res => this.setState({ totalPosts: res.postCount }))
       .catch(() => alert('please start the example data server'));
   }
 
@@ -65,21 +65,21 @@ export default class PokeTable extends React.Component {
           created: {},
         },
         params: {
-          skip: this.state.pageSize * (this.state.page - 1),
+          skip: this.state.pageSize * (this.state.currentPage - 1),
           limit: this.state.pageSize,
-          sort: Enum(this.state.sort.toUpperCase()),
-          order: Enum(this.state.order.toUpperCase()),
+          sort: Enum(this.state.sortField.toUpperCase()),
+          order: Enum(this.state.sortOrder.toUpperCase()),
         },
       }
     };
-    if (this.state.query) {
+    if (this.state.filterUser) {
       query.posts.params.filters = [
-        { field: "name", value: this.state.query },
+        { field: "name", value: this.state.filterUser },
       ];
     }
     // TODO improve error handling
     this.props.api.query(graphqlify(query))
-      .then(res => this.setState({ rows: res.posts }))
+      .then(res => this.setState({ tableRows: res.posts }))
       .catch(() => alert('please start the example data server'));
   }
 
@@ -102,49 +102,49 @@ export default class PokeTable extends React.Component {
       .catch(() => alert('please start the example data server'));
   }
 
-  setSort(sort) {
+  setSort(sortField) {
     let changes = {};
-    if (this.state.sort === sort && this.state.order === 'asc') {
-      changes = { sort, order: 'desc', page: 1 };
+    if (this.state.sortField === sortField && this.state.sortOrder === 'asc') {
+      changes = { sortField, sortOrder: 'desc', currentPage: 1 };
     } else {
-      changes = { sort, order: 'asc', page: 1 };
+      changes = { sortField, sortOrder: 'asc', currentPage: 1 };
     }
     this.setState(changes, () => this.syncData());
   }
 
-  setPage(page) {
-    const changes = { page };
+  setPage(currentPage) {
+    const changes = { currentPage };
     this.setState(changes, () => this.syncData());
   }
 
-  setPageSize(page, pageSize) {
-    const changes = { page, pageSize };
+  setPageSize(currentPage, pageSize) {
+    const changes = { currentPage, pageSize };
     this.setState(changes, () => this.syncData());
   }
 
-  setSearch(query) {
-    const changes = { query };
+  setSearch(filterUser) {
+    const changes = { filterUser };
     this.setState(changes, () => Promise.all([this.syncCount(), this.syncData()]));
   }
 
   showForm() {
-    const changes = { isFormVisible: true };
+    const changes = { formVisible: true };
     this.setState(changes);
   }
 
   hideForm() {
-    const changes = { isFormVisible: false };
+    const changes = { formVisible: false };
     this.setState(changes);
   }
 
   insertRow(row) {
-    if (this.state.page !== 1) {
+    if (this.state.currentPage !== 1) {
       return;
     }
-    const rows = this.state.rows.slice();
-    rows.unshift(row);
-    rows.pop();
-    const changes = { rows };
+    const tableRows = this.state.tableRows.slice();
+    tableRows.unshift(row);
+    tableRows.pop();
+    const changes = { tableRows };
     this.setState(changes);
   }
 
@@ -158,13 +158,13 @@ export default class PokeTable extends React.Component {
 
   getHeaders() {
     const headers = this.defaultHeaders();
-    const sorted = headers.find(h => h.id === this.state.sort);
-    sorted.sorted = this.state.order;
+    const sorted = headers.find(h => h.id === this.state.sortField);
+    sorted.sorted = this.state.sortOrder;
     return headers;
   }
 
   getContent() {
-    return this.state.rows;
+    return this.state.tableRows;
   }
 
   render() {
@@ -190,7 +190,7 @@ export default class PokeTable extends React.Component {
         </div>
         <SubmitForm
           headers={headers}
-          visible={this.state.isFormVisible}
+          visible={this.state.formVisible}
           onCancel={(...args) => this.hideForm(...args)}
           onSubmit={(...args) => this.createPost(...args)}
         />
@@ -205,8 +205,8 @@ export default class PokeTable extends React.Component {
             pageSizeOptions={[ '5', '10', '15', '20' ]}
             onChange={(...args) => this.setPage(...args)}
             onShowSizeChange={(...args) => this.setPageSize(...args)}
-            current={this.state.page}
-            total={this.state.total}
+            current={this.state.currentPage}
+            total={this.state.totalPosts}
           />
         </div>
       </div>
