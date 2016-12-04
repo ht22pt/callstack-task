@@ -13,6 +13,7 @@
     "graphqlify": "^1.1.0",
     "lokka": "^1.7.0",
     "lokka-transport-http": "^1.6.1",
+    "moment": "^2.17.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "sugar": "^2.0.4"
