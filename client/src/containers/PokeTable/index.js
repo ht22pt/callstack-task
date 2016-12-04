@@ -19,6 +19,7 @@ export default class PokeTable extends React.Component {
       total: 0,
       sort: 'id',
       order: 'asc',
+      query: null,
       rows: [],
     };
   }
@@ -35,16 +36,22 @@ export default class PokeTable extends React.Component {
   }
 
   syncCount() {
-    const query = graphqlify({
+    const query = {
       usersCount: {}
-    });
-    this.props.api.query(query)
+    };
+    if (this.state.query) {
+      query.usersCount.params = query.usersCount.params || {};
+      query.usersCount.params.filters = [
+        { field: "name", value: this.state.query },
+      ];
+    }
+    this.props.api.query(graphqlify(query))
       .then(res => this.setState({ total: res.usersCount }))
       .catch(() => alert('please start the example data server'));
   }
 
   syncData() {
-    const query = graphqlify({
+    const query = {
       users: {
         fields: {
           id: {},
@@ -61,8 +68,13 @@ export default class PokeTable extends React.Component {
           order: Enum(this.state.order.toUpperCase()),
         },
       }
-    });
-    this.props.api.query(query)
+    };
+    if (this.state.query) {
+      query.users.params.filters = [
+        { field: "name", value: this.state.query },
+      ];
+    }
+    this.props.api.query(graphqlify(query))
       .then(res => this.setState({ rows: res.users }))
       .catch(() => alert('please start the example data server'));
   }
@@ -87,6 +99,11 @@ export default class PokeTable extends React.Component {
     this.setState(changes, () => this.syncData());
   }
 
+  setSearch(query) {
+    const changes = { query };
+    this.setState(changes, () => [this.syncCount(), this.syncData()]);
+  }
+
   getHeaders() {
     const headers = this.defaultHeaders();
     const sorted = headers.find(h => h.id === this.state.sort);
@@ -103,7 +120,10 @@ export default class PokeTable extends React.Component {
       <div style={style.wrap}>
         <div style={style.search}>
           <Button type="ghost" icon="plus">Insert</Button>
-          <Input.Search placeholder="find user" onSearch={value => console.log(value)} />
+          <Input.Search
+            placeholder="find user"
+            onSearch={(...args) => this.setSearch(...args)}
+          />
         </div>
         <TableView
           headers={this.getHeaders()}
