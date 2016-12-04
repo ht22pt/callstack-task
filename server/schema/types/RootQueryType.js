@@ -2,17 +2,17 @@ const graphql = require('graphql');
 const path = require('path');
 const SortFieldType = require('./SortFieldType');
 const SortOrderType = require('./SortOrderType');
-const UserFilterType = require('./UserFilterType');
-const UserType = require('./UserType');
+const FilterType = require('./FilterType');
+const PostType = require('./PostType');
 
 module.exports = new graphql.GraphQLObjectType({
   name: path.basename(__filename, '.js'),
   fields: {
-    users: {
-      type: new graphql.GraphQLList(UserType),
+    posts: {
+      type: new graphql.GraphQLList(PostType),
       args: {
         filters: {
-          type: new graphql.GraphQLList(UserFilterType),
+          type: new graphql.GraphQLList(FilterType),
         },
         sort: {
           type: SortFieldType,
@@ -38,11 +38,11 @@ module.exports = new graphql.GraphQLObjectType({
       }
     },
 
-    usersCount: {
+    postCount: {
       type: graphql.GraphQLFloat,
       args: {
         filters: {
-          type: new graphql.GraphQLList(UserFilterType),
+          type: new graphql.GraphQLList(FilterType),
         },
       },
       resolve(root, args, context) {
