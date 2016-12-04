@@ -1,0 +1,38 @@
+{
+  "name": "callstack-task",
+  "version": "1.0.0",
+  "description": "A table component with React",
+  "main": "index.js",
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "@kadira/react-storybook-decorator-centered": "^1.0.0",
+    "antd": "^2.5.0",
+    "graphqlify": "^1.1.0",
+    "lokka": "^1.7.0",
+    "lokka-transport-http": "^1.6.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sugar": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook:start": "start-storybook -p 9009 -s public",
+    "storybook:build": "build-storybook -s public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnmtanish/callstack-task.git"
+  },
+  "author": "Muhammed Thanish <mnmtanish@gmail.com> (http://thanish.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnmtanish/callstack-task/issues"
+  },
+  "homepage": "https://github.com/mnmtanish/callstack-task#readme"
+}
