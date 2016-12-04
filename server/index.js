@@ -7,7 +7,7 @@ const createSchema = require('./schema');
 const demodata = require('./demodata');
 
 const server = express();
-server.use(cors());
+server.use(cors({ origin: true, credentials: true }));
 server.use(compression());
 
 const schema = createSchema({});
