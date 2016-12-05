@@ -32,6 +32,7 @@ export default class SubmitForm extends React.Component {
   submitForm() {
     const values = this.state.values;
     this.props.onSubmit(values);
+    this.resetForm();
   }
 
   updateHandler(h, getValue) {
@@ -48,13 +49,13 @@ export default class SubmitForm extends React.Component {
       let input = null;
       if (h.type === 'number') {
         const update = this.updateHandler(h, val => val);
-        input = <InputNumber onChange={update} />;
+        input = <InputNumber value={value} onChange={update} />;
       } else if (h.type === 'date') {
         const update = this.updateHandler(h, val => val.valueOf());
-        input = <DatePicker defaultValue={moment(value)} onChange={update} />;
+        input = <DatePicker value={moment(value)} onChange={update} />;
       } else {
         const update = this.updateHandler(h, e => e.target.value);
-        input = <Input onChange={update} />;
+        input = <Input value={value} onChange={update} />;
       }
       return (
         <Form.Item
