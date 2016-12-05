@@ -25,4 +25,5 @@ export default function TableBodyCell(props) {
 
 TableBodyCell.propTypes = {
   value: React.PropTypes.any.isRequired,
+  type: React.PropTypes.string.isRequired,
 };
