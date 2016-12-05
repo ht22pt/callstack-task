@@ -30,6 +30,7 @@ export default function TableHeadCell(props) {
 
 TableHeadCell.propTypes = {
   id: React.PropTypes.string.isRequired,
+  type: React.PropTypes.string.isRequired,
   title: React.PropTypes.string.isRequired,
   sorted: React.PropTypes.string,
   setSort: React.PropTypes.func,
